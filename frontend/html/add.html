@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Add Task</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  </head>
+  <body>
+    <!-- navbar start -->
+   <nav class="navbar bg-dark border-bottom border-bottom-dark" data-bs-theme="dark">
+    <!-- Navbar content -->
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Emploayee Management System</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./add.html" >Add Employee</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="./empList.html" >View All Employee</a>
+            </li>
+       
+        </ul>
+      </div>
+    </div>
+  </nav>
+  </nav>
+    <!-- Navbar content -->
+  </nav>
+      <!-- navbar end -->
+    <h1>Hello, Admin!</h1>
+    <h2>Add Task Here</h2>
+
+    <!--input taking form-->
+    <div  class="container w-75 " id="form">
+        
+        
+        <input  class="form-control mt-3" type="text" id="name" placeholder="Employee Name">
+        
+        <input class="form-control mt-3" type="text" id="phone" placeholder="Enter phone Number">
+        <input class="form-control mt-3" type="email" id="email" placeholder="Enter email">
+        <input class="form-control mt-3" type="text" id="address" placeholder="Enter address">
+        <input class="form-control mt-3" type="number" id="experience" placeholder="Enter Year Of Experience">
+        <!--product type-->
+
+        <select class="form-select mt-3" id="educationType">
+            <option value="B.Tech">B.Tech</option>
+            <option value="MCA">MCA</option>
+            <option value="B.Sc(cs)">B.Sc(cs)</option>
+            <option value="M.Tech">M.Tech</option>
+            
+        </select>
+
+
+        
+        <button class="btn btn-primary mt-3"  id="submit">Save Task</button>
+
+        </div>
+        
+    </div>
+    <!-- form ends here-->
+    <!--testing-->
+    
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  </body>
+</html>
+<script src="./Script/addTask.js"></script>
